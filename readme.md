@@ -57,9 +57,9 @@
 ##
 ## 📸 Screenshots
 
-| Landing Page | Dashboard |
+| DAG Pipeline Visualization | Bottleneck Detection & Cost Estimation |
 |:---:|:---:|
-| ![Pipeinspect Hero](screenshots/hero.png) | ![Pipeinspect Dashboard](screenshots/dashboard.png) |
+| ![Bottleneck Detection & Cost Estimation](screenshots/dashboard.png) |
 
 > 💡 *Run locally to see the full interactive experience: `pnpm dev` then open http://localhost:3000*
 
