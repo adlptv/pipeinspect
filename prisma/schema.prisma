@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Analysis {
+  id               String   @id @default(cuid())
+  name             String
+  format           String   // github-actions | gitlab-ci | jenkinsfile | circleci
+  config           String   // raw config text
+  parsedPipeline   String   // JSON string of parsed pipeline
+  suggestions      String   // JSON string of suggestions array
+  complexityScore  Float    // 0-100
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([format])
+}
