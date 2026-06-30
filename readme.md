@@ -54,7 +54,16 @@
 - RESTful API with Zod validation
 - Full test suite (Vitest + Playwright)
 
-## Quick Start
+##
+## 📸 Screenshots
+
+| Landing Page | Dashboard |
+|:---:|:---:|
+| ![Pipeinspect Hero](screenshots/hero.png) | ![Pipeinspect Dashboard](screenshots/dashboard.png) |
+
+> 💡 *Run locally to see the full interactive experience: `pnpm dev` then open http://localhost:3000*
+
+ Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
