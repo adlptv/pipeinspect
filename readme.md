@@ -8,9 +8,9 @@ Parses CI configuration files into an interactive DAG. Detects bottlenecks, sugg
 
 ## Screenshots
 
-| DAG Pipeline Visualization | Bottleneck Detection and Cost Estimation |
+| Landing Page (DAG View) | Analysis (Bottleneck + Cost) |
 |:---:|:---:|
-| ![DAG Pipeline Visualization](screenshots/hero.png) | ![Bottleneck Detection and Cost Estimation](screenshots/dashboard.png) |
+| ![Analysis: bottleneck detection badge, cost estimator, and optimization suggestions](screenshots/dashboard.png) |
 
 ## Features
 
